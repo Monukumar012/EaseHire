@@ -1,0 +1,71 @@
+.data-table-name{
+    display:flex !important;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0 !important;
+    width:100% !important;
+    margin-top:2.5rem !important;
+}
+
+.data-table-name a{
+    font-size:15px;
+}
+
+table{
+    width:100%;
+    font-size: small;
+}
+
+
+.table-name{
+    display:flex !important;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width:100% !important;
+}
+
+.table-name a{
+    font-size:12px;
+}
+
+
+.table-container {
+    margin-top: 7px;
+}
+
+.table td {
+    padding:7px !important;
+    vertical-align: middle !important;
+}
+
+
+.table td input {
+    width: 100%; /* Make input fields fit the cell */
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+.table-wrapper {
+    border-radius: .25rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+.coordinators-table {
+    background-color: #f8f9fa; /* Light gray for coordinators */
+}
+.tpo-table {
+    background-color: #e9ecef; /* Slightly darker gray for TPOs */
+}
+.normal-table {
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    overflow: hidden;
+}
+.normal-table .no-data {
+    text-align: center;
+    padding: 2rem;
+    color: #6c757d;
+    font-style: italic;
+}

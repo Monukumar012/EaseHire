@@ -1,0 +1,111 @@
+body {
+    padding-top: 56px;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+.navbar {
+    background-color: #343a40;
+}
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+.main-content {
+    margin-left: 250px;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+.main-content.collapsed {
+    margin-left: 30px;
+}
+
+.heading {
+    margin-top: 30px;
+    text-align: center;
+    color: #495057; /* Dark gray heading */
+}
+
+.form-container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-group label {
+    font-weight: bold;
+}
+
+#college-details,
+#other-details {
+    width: 64%;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#college-details {
+    z-index: 1; /* Ensure it is on top initially */
+}
+
+#other-details {
+    display: none;
+    opacity: 0; /* Ensure it starts invisible */
+    z-index: 2; /* Ensure it is on top when displayed */
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-group.text-right {
+    text-align: right;
+}
+.form-control[readonly] {
+    background-color: #e9ecef;
+}
+
+.dashboard-card {
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.card-icon {
+    font-size: 2rem;
+    color: #007bff;
+}
+.dashboard-card-body {
+    text-align: center;
+}
+.dashboard-card-body .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.dashboard-card-body .card-text {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+.form-group {
+    position: relative;
+}
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid #ced4da;
+}
+.form-control:invalid {
+    border-color: #dc3545; /* Highlight field with red border on invalid */
+}
+.text-danger {
+    color: #dc3545; /* Bootstrap's default error color */
+}
+.small {
+    font-size: 0.875rem; /* Smaller font size for error messages */
+}
+.form-group span {
+    display: block;
+    margin-top: 0.25rem; /* Space between input and error message */
+    font-size: 0.875rem; /* Font size for error message */
+    color: #dc3545; /* Red color for error message */
+}
+

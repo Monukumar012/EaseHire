@@ -1,0 +1,156 @@
+.modal-header {
+    background-color: #343a40; /* Dark color for header */
+    color: #fff;
+    border-bottom: none;
+}
+
+.modal-body {
+    padding: 1.5rem;
+    background-color: #ffffff; /* Light background for body */
+}
+
+.modal-footer {
+    background-color: #f1f1f1; /* Light gray for footer */
+    border-top: none;
+}
+
+.btn-primary {
+    background-color: #007bff; /* Primary color for buttons */
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker shade for button hover */
+}
+
+.btn-secondary {
+    background-color: #6c757d; /* Secondary color for buttons */
+    color: white;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Darker shade for button hover */
+}
+
+.btn-info {
+    background-color: #17a2b8; /* Info color for download button */
+    color: white;
+    font-size: 0.875rem; /* Smaller font size for download button */
+}
+
+.btn-info:hover {
+    background-color: #138496; /* Darker shade for button hover */
+}
+
+.file-upload-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #343a40; /* Dashed border for file input */
+    border-radius: 5px;
+    background-color: #ffffff; /* Light background for file upload */
+    padding: 1rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.file-upload-container input[type="file"] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.file-upload-container label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+}
+
+.file-upload-container label:hover {
+    background-color: #0056b3;
+}
+
+.file-upload-container .fas {
+    margin-right: 10px;
+}
+
+.file-info {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+    color: #6c757d; /* Light gray text for additional information */
+}
+
+.download-template-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-template-container .text-muted {
+    font-size: 0.875rem;
+    margin-right: 0.5rem;
+}
+
+.download-template-container .btn-info {
+    font-size: 0.875rem; /* Consistent font size */
+    font-weight: bold; /* Bold text for emphasis */
+}
+
+.close {
+    font-size: 1.5rem; /* Larger font size for better visibility */
+    color: #ffffff; /* White color to match the modal header */
+    opacity: 0.8; /* Slightly transparent for a modern look */
+    transition: color 0.3s ease, opacity 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.close:hover {
+    color: #ffcc00; /* Change color on hover to match your color scheme */
+    opacity: 1; /* Full opacity on hover for better visibility */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+.close span {
+    display: inline-block;
+    line-height: 1; /* Adjust line height for better alignment */
+}
+
+.modal-content {
+    border-radius: 0.5rem;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.btn-outline-info {
+    color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.btn-outline-info:hover {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.file-info, .selected-file-info {
+    color: #495057;
+}
+
+.file-upload-container label {
+    font-weight: 500;
+}
+
+.file-upload-container input {
+    font-size: 1rem;
+}

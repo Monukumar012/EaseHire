@@ -1,0 +1,75 @@
+.btn-group {
+    display: flex;
+}
+
+
+.btn-group .btn {
+    margin-right: 5px;
+}
+.btn-info {
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.btn-danger {
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+.btn-info:hover, .btn-danger:hover {
+    opacity: 0.8;
+}
+.icon-btn-sm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2rem;
+    width: 2rem;
+    font-size: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+.btn-group .btn i {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-secondary {
+    margin-left: 10px;
+}
+
+.btn.disabled, .btn[disabled] {
+    opacity: 0.6 !important; /* Make the button look disabled */
+    cursor: not-allowed !important; /* Change the cursor to indicate that the button is not clickable */
+ }
+
+ .shortcut-container {
+     display: flex;
+     align-items: center;
+     gap: 8px;
+     font-size: 16px;
+ }
+
+ .add-button {
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: white;
+     border: none;
+     border-radius: 5px;
+     text-decoration: none;
+     display: inline-flex;
+     align-items: center;
+ }
+ .shortcut-text {
+     margin-left: 8px;
+     font-size: 14px;
+ }
+ .key {
+     font-weight: bold;
+ }

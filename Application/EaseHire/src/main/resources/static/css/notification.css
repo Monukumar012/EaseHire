@@ -1,0 +1,17 @@
+.notification {
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    top: 60px; /* Adjust based on your navbar height */
+    right: 20px;
+    z-index: 1050; /* Ensures it is above other content */
+    min-width: 300px; /* Optional: Adjust as needed */
+    opacity: 1;
+    visibility: visible;
+    display: none; /* Hidden by default */
+    padding: 6px 13px !important;
+}
+
+.notification .close {
+    cursor: pointer;
+}
