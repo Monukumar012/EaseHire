@@ -20,7 +20,7 @@
 ## Installation and Setup
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/yourusername/easehire.git
+   git clone https://github.com/Monukumar012/easehire.git
    cd easehire
 
 2. **Set Up the Database**: Configure your database settings in the application.properties file.
